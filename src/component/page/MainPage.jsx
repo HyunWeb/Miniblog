@@ -31,7 +31,7 @@ function MainPage(props) {
         <Wrapper>
             <Container>
                 <Button
-                    title="글 작성하기"
+                    title="글 작성하러 가기"
                     onClick={() => {navigate("/post-write");}}
                 />
                 <PostList
